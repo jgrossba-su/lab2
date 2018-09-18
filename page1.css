@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+
+}
+
+.item{
+    margin: 10px;
+    height: 200px;
+}
+
+
+.blue-item{
+    background-color: lightblue;
+    flex: 0 1 50%;
+}
+
+.red-item{
+    background-color: lightcoral;
+
+}
+
+.red-item-small{
+    flex: 0 0 25%;
+}
+
+.red-item-large{
+    flex: 0 0 50%;
+}
